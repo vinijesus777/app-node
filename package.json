@@ -1,0 +1,23 @@
+{
+    "name": "meu-projeto-poc",
+    "version": "1.0.0",
+    "description": "POC para demonstração com Node.js, Express e PostgreSQL",
+    "main": "src/server.js",
+    "scripts": {
+      "start": "node src/server.js",
+      "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "pg": "^8.11.1",
+      "dotenv": "^16.3.1",
+      "cors": "^2.8.5"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.0"
+    },
+    "author": "Vinicius Jesus",
+    "license": "MIT"
+  }
+  
+  
